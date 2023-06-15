@@ -1,0 +1,120 @@
+Dependencies for Project 'datchik', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 6180000::V6.18::ARMCLANG
+F (.\main.c)(0x648A659A)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../../Library/Milandr_Config -I ../../../Library/Milandr_Interrupt-I./RTE/Device/MDR1986BE92-I./RTE/_Target_1-ID:/Soft/MK/ARM_PACKS/ARM/CMSIS/5.9.0/CMSIS/Core/Include-ID:/Soft/MK/ARM_PACKS/Milandr/MDR1986BExx/1.4.2/Config-ID:/Soft/MK/ARM_PACKS/Milandr/MDR1986BExx/1.4.2/Libraries/CMSIS/CM3/CoreSupport-ID:/Soft/MK/ARM_PACKS/Milandr/MDR1986BExx/1.4.2/Libraries/CMSIS/CM3/DeviceSupport/MDR32F9Qx/inc-ID:/Soft/MK/ARM_PACKS/Milandr/MDR1986BExx/1.4.2/Libraries/MDR32F9Qx_StdPeriph_Driver/inc-D__UVISION_VERSION="537" -D_RTE_ -DUSE_MDR32F9Q2_Rev1 -D_RTE_-o ./objects/main.o -MD)
+I (..\..\..\Library\Milandr_Config\MDR32F9Qx_config.h)(0x633D2B37)
+I (..\..\..\Library\Milandr_Config\MDR32F9Qx_board.h)(0x633D2B37)
+I (D:\Soft\MK\ARM_PACKS\Milandr\MDR1986BExx\1.4.2\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_lib.h)(0x56BDBD7C)
+I (D:\Soft\MK\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x62528B08)
+I (..\..\..\Library\Milandr_Config\MDR32Fx.h)(0x633D2CA5)
+I (D:\Soft\MK\ARM_PACKS\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x626F750E)
+I (D:\Soft\MK\ARM_PACKS\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F750E)
+I (D:\Soft\MK\ARM_PACKS\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F750E)
+I (D:\Soft\MK\ARM_PACKS\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F750E)
+I (D:\Soft\MK\ARM_PACKS\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv7.h)(0x626F750E)
+I (RTE\Device\MDR1986BE92\system_MDR32F9Qx.h)(0x56BDBD7C)
+I (D:\Soft\MK\ARM_PACKS\Milandr\MDR1986BExx\1.4.2\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_i2c.h)(0x56BDBD7C)
+I (D:\Soft\MK\ARM_PACKS\Milandr\MDR1986BExx\1.4.2\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_port.h)(0x56BDBD7C)
+I (D:\Soft\MK\ARM_PACKS\Milandr\MDR1986BExx\1.4.2\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_rst_clk.h)(0x56BDBD7C)
+I (D:\Soft\MK\ARM_PACKS\Milandr\MDR1986BExx\1.4.2\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_timer.h)(0x56BDBD7C)
+I (..\..\..\Library\Milandr_Interrupt\MDR32F9Qx_it.h)(0x633D2BF2)
+I (D:\Soft\MK\ARM_PACKS\Milandr\MDR1986BExx\1.4.2\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_dac.h)(0x56BDBD7C)
+I (MPU9250.h)(0x648A6522)
+I (D:\Soft\MK\Keil_v5\ARM\ARMCLANG\include\math.h)(0x62528B06)
+F (.\MPU9250.c)(0x648A65C8)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../../Library/Milandr_Config -I ../../../Library/Milandr_Interrupt-I./RTE/Device/MDR1986BE92-I./RTE/_Target_1-ID:/Soft/MK/ARM_PACKS/ARM/CMSIS/5.9.0/CMSIS/Core/Include-ID:/Soft/MK/ARM_PACKS/Milandr/MDR1986BExx/1.4.2/Config-ID:/Soft/MK/ARM_PACKS/Milandr/MDR1986BExx/1.4.2/Libraries/CMSIS/CM3/CoreSupport-ID:/Soft/MK/ARM_PACKS/Milandr/MDR1986BExx/1.4.2/Libraries/CMSIS/CM3/DeviceSupport/MDR32F9Qx/inc-ID:/Soft/MK/ARM_PACKS/Milandr/MDR1986BExx/1.4.2/Libraries/MDR32F9Qx_StdPeriph_Driver/inc-D__UVISION_VERSION="537" -D_RTE_ -DUSE_MDR32F9Q2_Rev1 -D_RTE_-o ./objects/mpu9250.o -MD)
+I (..\..\..\Library\Milandr_Config\MDR32F9Qx_config.h)(0x633D2B37)
+I (..\..\..\Library\Milandr_Config\MDR32F9Qx_board.h)(0x633D2B37)
+I (D:\Soft\MK\ARM_PACKS\Milandr\MDR1986BExx\1.4.2\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_lib.h)(0x56BDBD7C)
+I (D:\Soft\MK\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x62528B08)
+I (..\..\..\Library\Milandr_Config\MDR32Fx.h)(0x633D2CA5)
+I (D:\Soft\MK\ARM_PACKS\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x626F750E)
+I (D:\Soft\MK\ARM_PACKS\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F750E)
+I (D:\Soft\MK\ARM_PACKS\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F750E)
+I (D:\Soft\MK\ARM_PACKS\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F750E)
+I (D:\Soft\MK\ARM_PACKS\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv7.h)(0x626F750E)
+I (RTE\Device\MDR1986BE92\system_MDR32F9Qx.h)(0x56BDBD7C)
+I (MPU9250.h)(0x648A6522)
+I (D:\Soft\MK\ARM_PACKS\Milandr\MDR1986BExx\1.4.2\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_i2c.h)(0x56BDBD7C)
+I (D:\Soft\MK\ARM_PACKS\Milandr\MDR1986BExx\1.4.2\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_port.h)(0x56BDBD7C)
+F (.\MPU9250.h)(0x648A6522)()
+F (.\LCD_lib\font.h)(0x5EE2092F)()
+F (.\LCD_lib\lcd.c)(0x64614870)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../../Library/Milandr_Config -I ../../../Library/Milandr_Interrupt-I./RTE/Device/MDR1986BE92-I./RTE/_Target_1-ID:/Soft/MK/ARM_PACKS/ARM/CMSIS/5.9.0/CMSIS/Core/Include-ID:/Soft/MK/ARM_PACKS/Milandr/MDR1986BExx/1.4.2/Config-ID:/Soft/MK/ARM_PACKS/Milandr/MDR1986BExx/1.4.2/Libraries/CMSIS/CM3/CoreSupport-ID:/Soft/MK/ARM_PACKS/Milandr/MDR1986BExx/1.4.2/Libraries/CMSIS/CM3/DeviceSupport/MDR32F9Qx/inc-ID:/Soft/MK/ARM_PACKS/Milandr/MDR1986BExx/1.4.2/Libraries/MDR32F9Qx_StdPeriph_Driver/inc-D__UVISION_VERSION="537" -D_RTE_ -DUSE_MDR32F9Q2_Rev1 -D_RTE_-o ./objects/lcd.o -MD)
+I (LCD_lib\lcd.h)(0x641C78F8)
+I (..\..\..\Library\Milandr_Config\MDR32Fx.h)(0x633D2CA5)
+I (D:\Soft\MK\ARM_PACKS\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x626F750E)
+I (D:\Soft\MK\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x62528B08)
+I (D:\Soft\MK\ARM_PACKS\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F750E)
+I (D:\Soft\MK\ARM_PACKS\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F750E)
+I (D:\Soft\MK\ARM_PACKS\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F750E)
+I (D:\Soft\MK\ARM_PACKS\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv7.h)(0x626F750E)
+I (RTE\Device\MDR1986BE92\system_MDR32F9Qx.h)(0x56BDBD7C)
+I (D:\Soft\MK\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x62528B06)
+I (D:\Soft\MK\Keil_v5\ARM\ARMCLANG\include\string.h)(0x62528B06)
+I (LCD_lib\font.h)(0x5EE2092F)
+F (.\LCD_lib\lcd.h)(0x641C78F8)()
+F (RTE/Device/MDR1986BE92/RTE_Device.h)(0x55EC2E8E)()
+F (RTE/Device/MDR1986BE92/startup_MDR32F9Qx.s)(0x56BDBD7C)(--target=arm-arm-none-eabi -mcpu=cortex-m3 -masm=auto -c-gdwarf-4 -Wa,armasm,--pd,"__EVAL SETA 1"-I./RTE/Device/MDR1986BE92-I./RTE/_Target_1-ID:/Soft/MK/ARM_PACKS/ARM/CMSIS/5.9.0/CMSIS/Core/Include-ID:/Soft/MK/ARM_PACKS/Milandr/MDR1986BExx/1.4.2/Config-ID:/Soft/MK/ARM_PACKS/Milandr/MDR1986BExx/1.4.2/Libraries/CMSIS/CM3/CoreSupport-ID:/Soft/MK/ARM_PACKS/Milandr/MDR1986BExx/1.4.2/Libraries/CMSIS/CM3/DeviceSupport/MDR32F9Qx/inc-ID:/Soft/MK/ARM_PACKS/Milandr/MDR1986BExx/1.4.2/Libraries/MDR32F9Qx_StdPeriph_Driver/inc-Wa,armasm,--pd,"__UVISION_VERSION SETA 537" -Wa,armasm,--pd,"_RTE_ SETA 1" -Wa,armasm,--pd,"USE_MDR32F9Q2_Rev1 SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o ./objects/startup_mdr32f9qx.o)
+F (RTE/Device/MDR1986BE92/system_MDR32F9Qx.c)(0x5773C6B2)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../../Library/Milandr_Config -I ../../../Library/Milandr_Interrupt-I./RTE/Device/MDR1986BE92-I./RTE/_Target_1-ID:/Soft/MK/ARM_PACKS/ARM/CMSIS/5.9.0/CMSIS/Core/Include-ID:/Soft/MK/ARM_PACKS/Milandr/MDR1986BExx/1.4.2/Config-ID:/Soft/MK/ARM_PACKS/Milandr/MDR1986BExx/1.4.2/Libraries/CMSIS/CM3/CoreSupport-ID:/Soft/MK/ARM_PACKS/Milandr/MDR1986BExx/1.4.2/Libraries/CMSIS/CM3/DeviceSupport/MDR32F9Qx/inc-ID:/Soft/MK/ARM_PACKS/Milandr/MDR1986BExx/1.4.2/Libraries/MDR32F9Qx_StdPeriph_Driver/inc-D__UVISION_VERSION="537" -D_RTE_ -DUSE_MDR32F9Q2_Rev1 -D_RTE_-o ./objects/system_mdr32f9qx.o -MD)
+I (..\..\..\Library\Milandr_Config\MDR32Fx.h)(0x633D2CA5)
+I (D:\Soft\MK\ARM_PACKS\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x626F750E)
+I (D:\Soft\MK\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x62528B08)
+I (D:\Soft\MK\ARM_PACKS\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F750E)
+I (D:\Soft\MK\ARM_PACKS\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F750E)
+I (D:\Soft\MK\ARM_PACKS\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F750E)
+I (D:\Soft\MK\ARM_PACKS\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv7.h)(0x626F750E)
+I (RTE\Device\MDR1986BE92\system_MDR32F9Qx.h)(0x56BDBD7C)
+I (..\..\..\Library\Milandr_Config\MDR32F9Qx_config.h)(0x633D2B37)
+I (..\..\..\Library\Milandr_Config\MDR32F9Qx_board.h)(0x633D2B37)
+I (D:\Soft\MK\ARM_PACKS\Milandr\MDR1986BExx\1.4.2\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_lib.h)(0x56BDBD7C)
+F (RTE/Device/MDR1986BE92/system_MDR32F9Qx.h)(0x56BDBD7C)()
+F (D:/Soft/MK/ARM_PACKS/Milandr/MDR1986BExx/1.4.2/Libraries/MDR32F9Qx_StdPeriph_Driver/src/MDR32F9Qx_i2c.c)(0x56BDBD7E)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../../Library/Milandr_Config -I ../../../Library/Milandr_Interrupt-I./RTE/Device/MDR1986BE92-I./RTE/_Target_1-ID:/Soft/MK/ARM_PACKS/ARM/CMSIS/5.9.0/CMSIS/Core/Include-ID:/Soft/MK/ARM_PACKS/Milandr/MDR1986BExx/1.4.2/Config-ID:/Soft/MK/ARM_PACKS/Milandr/MDR1986BExx/1.4.2/Libraries/CMSIS/CM3/CoreSupport-ID:/Soft/MK/ARM_PACKS/Milandr/MDR1986BExx/1.4.2/Libraries/CMSIS/CM3/DeviceSupport/MDR32F9Qx/inc-ID:/Soft/MK/ARM_PACKS/Milandr/MDR1986BExx/1.4.2/Libraries/MDR32F9Qx_StdPeriph_Driver/inc-D__UVISION_VERSION="537" -D_RTE_ -DUSE_MDR32F9Q2_Rev1 -D_RTE_-o ./objects/mdr32f9qx_i2c.o -MD)
+I (..\..\..\Library\Milandr_Config\MDR32F9Qx_config.h)(0x633D2B37)
+I (..\..\..\Library\Milandr_Config\MDR32F9Qx_board.h)(0x633D2B37)
+I (D:\Soft\MK\ARM_PACKS\Milandr\MDR1986BExx\1.4.2\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_lib.h)(0x56BDBD7C)
+I (D:\Soft\MK\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x62528B08)
+I (..\..\..\Library\Milandr_Config\MDR32Fx.h)(0x633D2CA5)
+I (D:\Soft\MK\ARM_PACKS\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x626F750E)
+I (D:\Soft\MK\ARM_PACKS\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F750E)
+I (D:\Soft\MK\ARM_PACKS\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F750E)
+I (D:\Soft\MK\ARM_PACKS\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F750E)
+I (D:\Soft\MK\ARM_PACKS\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv7.h)(0x626F750E)
+I (RTE\Device\MDR1986BE92\system_MDR32F9Qx.h)(0x56BDBD7C)
+I (D:\Soft\MK\ARM_PACKS\Milandr\MDR1986BExx\1.4.2\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_i2c.h)(0x56BDBD7C)
+F (D:/Soft/MK/ARM_PACKS/Milandr/MDR1986BExx/1.4.2/Libraries/MDR32F9Qx_StdPeriph_Driver/src/MDR32F9Qx_port.c)(0x56BDBD7E)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../../Library/Milandr_Config -I ../../../Library/Milandr_Interrupt-I./RTE/Device/MDR1986BE92-I./RTE/_Target_1-ID:/Soft/MK/ARM_PACKS/ARM/CMSIS/5.9.0/CMSIS/Core/Include-ID:/Soft/MK/ARM_PACKS/Milandr/MDR1986BExx/1.4.2/Config-ID:/Soft/MK/ARM_PACKS/Milandr/MDR1986BExx/1.4.2/Libraries/CMSIS/CM3/CoreSupport-ID:/Soft/MK/ARM_PACKS/Milandr/MDR1986BExx/1.4.2/Libraries/CMSIS/CM3/DeviceSupport/MDR32F9Qx/inc-ID:/Soft/MK/ARM_PACKS/Milandr/MDR1986BExx/1.4.2/Libraries/MDR32F9Qx_StdPeriph_Driver/inc-D__UVISION_VERSION="537" -D_RTE_ -DUSE_MDR32F9Q2_Rev1 -D_RTE_-o ./objects/mdr32f9qx_port.o -MD)
+I (..\..\..\Library\Milandr_Config\MDR32F9Qx_config.h)(0x633D2B37)
+I (..\..\..\Library\Milandr_Config\MDR32F9Qx_board.h)(0x633D2B37)
+I (D:\Soft\MK\ARM_PACKS\Milandr\MDR1986BExx\1.4.2\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_lib.h)(0x56BDBD7C)
+I (D:\Soft\MK\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x62528B08)
+I (..\..\..\Library\Milandr_Config\MDR32Fx.h)(0x633D2CA5)
+I (D:\Soft\MK\ARM_PACKS\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x626F750E)
+I (D:\Soft\MK\ARM_PACKS\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F750E)
+I (D:\Soft\MK\ARM_PACKS\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F750E)
+I (D:\Soft\MK\ARM_PACKS\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F750E)
+I (D:\Soft\MK\ARM_PACKS\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv7.h)(0x626F750E)
+I (RTE\Device\MDR1986BE92\system_MDR32F9Qx.h)(0x56BDBD7C)
+I (D:\Soft\MK\ARM_PACKS\Milandr\MDR1986BExx\1.4.2\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_port.h)(0x56BDBD7C)
+F (D:/Soft/MK/ARM_PACKS/Milandr/MDR1986BExx/1.4.2/Libraries/MDR32F9Qx_StdPeriph_Driver/src/MDR32F9Qx_rst_clk.c)(0x56BDBD7E)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../../Library/Milandr_Config -I ../../../Library/Milandr_Interrupt-I./RTE/Device/MDR1986BE92-I./RTE/_Target_1-ID:/Soft/MK/ARM_PACKS/ARM/CMSIS/5.9.0/CMSIS/Core/Include-ID:/Soft/MK/ARM_PACKS/Milandr/MDR1986BExx/1.4.2/Config-ID:/Soft/MK/ARM_PACKS/Milandr/MDR1986BExx/1.4.2/Libraries/CMSIS/CM3/CoreSupport-ID:/Soft/MK/ARM_PACKS/Milandr/MDR1986BExx/1.4.2/Libraries/CMSIS/CM3/DeviceSupport/MDR32F9Qx/inc-ID:/Soft/MK/ARM_PACKS/Milandr/MDR1986BExx/1.4.2/Libraries/MDR32F9Qx_StdPeriph_Driver/inc-D__UVISION_VERSION="537" -D_RTE_ -DUSE_MDR32F9Q2_Rev1 -D_RTE_-o ./objects/mdr32f9qx_rst_clk.o -MD)
+I (..\..\..\Library\Milandr_Config\MDR32F9Qx_config.h)(0x633D2B37)
+I (..\..\..\Library\Milandr_Config\MDR32F9Qx_board.h)(0x633D2B37)
+I (D:\Soft\MK\ARM_PACKS\Milandr\MDR1986BExx\1.4.2\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_lib.h)(0x56BDBD7C)
+I (D:\Soft\MK\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x62528B08)
+I (..\..\..\Library\Milandr_Config\MDR32Fx.h)(0x633D2CA5)
+I (D:\Soft\MK\ARM_PACKS\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x626F750E)
+I (D:\Soft\MK\ARM_PACKS\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F750E)
+I (D:\Soft\MK\ARM_PACKS\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F750E)
+I (D:\Soft\MK\ARM_PACKS\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F750E)
+I (D:\Soft\MK\ARM_PACKS\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv7.h)(0x626F750E)
+I (RTE\Device\MDR1986BE92\system_MDR32F9Qx.h)(0x56BDBD7C)
+I (D:\Soft\MK\ARM_PACKS\Milandr\MDR1986BExx\1.4.2\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_rst_clk.h)(0x56BDBD7C)
+F (D:/Soft/MK/ARM_PACKS/Milandr/MDR1986BExx/1.4.2/Libraries/MDR32F9Qx_StdPeriph_Driver/src/MDR32F9Qx_timer.c)(0x56BDBD7E)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../../Library/Milandr_Config -I ../../../Library/Milandr_Interrupt-I./RTE/Device/MDR1986BE92-I./RTE/_Target_1-ID:/Soft/MK/ARM_PACKS/ARM/CMSIS/5.9.0/CMSIS/Core/Include-ID:/Soft/MK/ARM_PACKS/Milandr/MDR1986BExx/1.4.2/Config-ID:/Soft/MK/ARM_PACKS/Milandr/MDR1986BExx/1.4.2/Libraries/CMSIS/CM3/CoreSupport-ID:/Soft/MK/ARM_PACKS/Milandr/MDR1986BExx/1.4.2/Libraries/CMSIS/CM3/DeviceSupport/MDR32F9Qx/inc-ID:/Soft/MK/ARM_PACKS/Milandr/MDR1986BExx/1.4.2/Libraries/MDR32F9Qx_StdPeriph_Driver/inc-D__UVISION_VERSION="537" -D_RTE_ -DUSE_MDR32F9Q2_Rev1 -D_RTE_-o ./objects/mdr32f9qx_timer.o -MD)
+I (..\..\..\Library\Milandr_Config\MDR32F9Qx_config.h)(0x633D2B37)
+I (..\..\..\Library\Milandr_Config\MDR32F9Qx_board.h)(0x633D2B37)
+I (D:\Soft\MK\ARM_PACKS\Milandr\MDR1986BExx\1.4.2\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_lib.h)(0x56BDBD7C)
+I (D:\Soft\MK\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x62528B08)
+I (..\..\..\Library\Milandr_Config\MDR32Fx.h)(0x633D2CA5)
+I (D:\Soft\MK\ARM_PACKS\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x626F750E)
+I (D:\Soft\MK\ARM_PACKS\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F750E)
+I (D:\Soft\MK\ARM_PACKS\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F750E)
+I (D:\Soft\MK\ARM_PACKS\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F750E)
+I (D:\Soft\MK\ARM_PACKS\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv7.h)(0x626F750E)
+I (RTE\Device\MDR1986BE92\system_MDR32F9Qx.h)(0x56BDBD7C)
+I (D:\Soft\MK\ARM_PACKS\Milandr\MDR1986BExx\1.4.2\Libraries\MDR32F9Qx_StdPeriph_Driver\inc\MDR32F9Qx_timer.h)(0x56BDBD7C)
